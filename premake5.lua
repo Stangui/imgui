@@ -22,7 +22,7 @@ project "ImGui"
 	filter "system:windows"
 		systemversion "latest"
 		staticruntime "On"
-        cppdialect "C++17"
+        	cppdialect "C++17"
 				
 		filter { "system:windows", "configurations:Release" }
 			buildoptions "/MT"
